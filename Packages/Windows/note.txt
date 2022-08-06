@@ -1,0 +1,10 @@
+pkg install symbolic-win-py-bundle-2.7.0.zip
+pkg install -forge symbolic
+pkg load symbolic
+
+Test:
+syms x
+f = (sin(x/2))^3
+diff(f, x)
+
+

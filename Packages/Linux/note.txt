@@ -1,0 +1,17 @@
+/***INSTALL**/
+sudo apt-get install liboctave-dev
+/******************************************/
+Install packages by command line of octave:
+ex:
+pkg install symbolic-win-py-bundle-2.7.0.zip
+pkg install control-3.2.0.tar.gz
+pkg install -forge symbolic
+pkg load symbolic
+
+/******************************************/
+This is needed:
+sudo apt-get update
+sudo apt-get install liboctave-dev
+
+/******************************************/
+
